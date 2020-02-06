@@ -64,13 +64,13 @@ function subscribeUser() {
 }
 
 function updateSubscriptionOnServer(subscription) {
-  return fetch("https://backend-qoot.qoot.online/api/subscribe", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({ subscription })
-  });
+  // return fetch("https://backend-qoot.qoot.online/api/subscribe", {
+  //   method: "POST",
+  //   headers: {
+  //     "Content-Type": "application/json"
+  //   },
+  //   body: JSON.stringify({ subscription })
+  // });
 }
 
 function urlB64ToUint8Array(base64String) {
